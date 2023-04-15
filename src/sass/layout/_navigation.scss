@@ -4,7 +4,6 @@
 
 nav {
   width: 100%;
-  background-color: lightskyblue;
 }
 
 .nav-container {
@@ -13,11 +12,12 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1rem 0;
+  justify-items: center;
+  padding: 0.8rem 0;
 }
 
 #logo {
-  width: 5rem;
+  width: 24rem;
   height: auto;
 }
 
@@ -25,19 +25,66 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 
-.nav-links ul {
+.nav-links {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+  }
+
+  li {
+    margin: 0 0.8rem;
+    cursor: pointer;
+  }
+}
+
+#search-icon {
+  height: 2rem;
+  width: auto;
+  margin-top: 0.8rem;
+}
+
+.nav-link-item {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   align-items: center;
-  text-transform: uppercase;
+  margin: 0 0.8rem;
+
+  svg {
+    height: 1.6rem;
+    width: auto;
+  }
 }
 
-.nav-links li {
-  margin: 0 1.5rem;
-  cursor: pointer;
+.account-basket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  svg {
+    height: 2.4rem;
+    width: auto;
+  }
+}
+
+#account-icon {
+  margin-right: 1.6rem;
+}
+
+.basket-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+
+  svg {
+    margin-right: 0.8rem;
+    fill: white;
+  }
 }
