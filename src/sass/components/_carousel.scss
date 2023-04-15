@@ -1,0 +1,52 @@
+// Carousel
+
+// Swiper Buttons
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: transparent !important;
+  padding: 0.5rem 1.5rem !important;
+  transition: $main-transition !important;
+  background-repeat: no-repeat !important;
+  background-size: 50% auto !important;
+  background-position: center !important;
+}
+
+// .swiper-button-next {
+//   background-image: url(/assets/icons/arrow-right.svg) !important;
+// }
+
+// .swiper-button-prev {
+//   background-image: url(/assets/icons/arrow-left.svg) !important;
+// }
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: black !important;
+}
+
+
+// Hero Banner Style
+
+.hero {
+  img {
+    width: auto;
+    height: 50vh;
+    position: relative;
+  }
+}
+
+/* Tablet & Laptop View */
+@media (min-width: 768px) {
+
+  .hero {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

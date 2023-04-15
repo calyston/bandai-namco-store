@@ -1,0 +1,72 @@
+// Typography
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;500&display=swap');
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  font-family: $body-font;
+  cursor: default;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $heading-font;
+  text-transform: uppercase;
+  color: #000;
+  margin: 1.6rem 0;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+p,
+li,
+span,
+a,
+label,
+input,
+textarea {
+  font-family: $body-font;
+  font-size: 1.6rem;
+  color: #222;
+}
+
+li {
+  list-style-position: inside;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: blue;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+  color: lightskyblue;
+}
