@@ -1,1 +1,33 @@
 // Homepage
+
+.promo-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 0;
+}
+
+.promo-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  img {
+    width: 8rem;
+    height: auto;
+    margin-right: 1.6rem;
+  }
+}
+
+.promo-text {
+  h4 {
+    font-weight: 300;
+    margin: 0;
+    font-family: $body-font;
+  }
+
+  p {
+    font-weight: 600;
+  }
+}
