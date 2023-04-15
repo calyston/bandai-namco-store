@@ -4,11 +4,13 @@ import { Link } from 'react-router-dom';
 
 // Components
 import HomeHero from '../components/HomeHero';
+import NewProducts from '../components/NewProducts';
 
 // Images
 import promo1 from '../assets/icon-1.png'
 import promo2 from '../assets/icon-2.png'
 import promo3 from '../assets/icon-3.png'
+
 
 const Home = () => {
   return (
@@ -38,14 +40,20 @@ const Home = () => {
         </div>
       </article>
 
-      <article>
+      <article className="new-products-section">
         <div className="title">
           <h3>Discover Our</h3>
           <h2>New Products</h2>
         </div>
+        <article className="grid-container">
+          <NewProducts />
+        </article>
+        <button>View All</button>
       </article>
 
-      <button>Hello</button>
+
+
+
     </div>
   )
 }
