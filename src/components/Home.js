@@ -58,6 +58,7 @@ const Home = () => {
           <h2>Popular Franchises</h2>
         </div>
         <PopularFranchises />
+        <button>View All</button>
       </article>
 
 
