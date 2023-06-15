@@ -1,10 +1,11 @@
 import '../sass/main.scss';
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 // Components
 import HomeHero from '../components/HomeHero';
 import NewProducts from '../components/NewProducts';
+import PopularFranchises from './PopularFranchises';
 
 // Images
 import promo1 from '../assets/icon-1.png'
@@ -51,7 +52,13 @@ const Home = () => {
         <button>View All</button>
       </article>
 
-
+      <article className="popular-franchises-section">
+        <div className="title">
+          <h3>Discover Our</h3>
+          <h2>Popular Franchises</h2>
+        </div>
+        <PopularFranchises />
+      </article>
 
 
     </div>

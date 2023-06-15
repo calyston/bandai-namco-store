@@ -1,6 +1,6 @@
 import '../sass/main.scss';
 import React from "react";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import newProduct from './ProductContent';
 
 const newProducts = () => {

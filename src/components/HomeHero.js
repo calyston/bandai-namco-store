@@ -37,6 +37,12 @@ const HomeHero = () => {
             <img src={homeHeroSlides[2].img} alt={homeHeroSlides[2].alt} />
           </div>
         </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="hero">
+            <img src={homeHeroSlides[3].img} alt={homeHeroSlides[3].alt} />
+          </div>
+        </SwiperSlide>
       </Swiper>
     </article>
   )
